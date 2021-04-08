@@ -8,12 +8,16 @@ Code for my charts in the April 2021 [30 Day Chart Challenge](https://github.com
 
 ### distributions
 
+Day 8 - animals
+
+![Map of Greater Sage-Grouse subpopulations in western North America](img/08-animals.svg)
+
 Day 7 - physical
 
-![Pictogram of book heights](img/07-physical.png)
+![Pictogram of book heights](img/07-physical.svg)
 
 ### comparisons
 
 Day 6 - experimental
 
-![Line chart of p-values from a series of chi-squared tests on my D20 dice](img/06-experimental.png)
+![Line chart of p-values from a series of chi-squared tests on my D20 dice](img/06-experimental.svg)
