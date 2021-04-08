@@ -81,16 +81,16 @@ ggsave(here('img', '06-experimental.svg'),
 ggsave(here('img', '06-experimental.png'), 
        width = 6, height = 6)
 
-d20s %>%
-  group_by(die, roll) %>%
-  summarize(n = n()) %>%
-  mutate(prop = n / sum(n)) %>%
-  filter(die == "red") %>%
-  ggplot(aes(x = roll, y = prop, fill = die)) +
-  geom_col() +
-  geom_hline(yintercept = 0.05, linetype = "dashed") +
-  scale_y_continuous(labels = scales::percent) +
-  scale_fill_manual(values = cols) +
-  facet_wrap(~die) +
-  theme_bw() +
-  theme(legend.position = "none")
+# d20s %>%
+#   group_by(die, roll) %>%
+#   summarize(n = n()) %>%
+#   mutate(prop = n / sum(n)) %>%
+#   filter(die == "red") %>%
+#   ggplot(aes(x = roll, y = prop, fill = die)) +
+#   geom_col() +
+#   geom_hline(yintercept = 0.05, linetype = "dashed") +
+#   scale_y_continuous(labels = scales::percent) +
+#   scale_fill_manual(values = cols) +
+#   facet_wrap(~die) +
+#   theme_bw() +
+#   theme(legend.position = "none")

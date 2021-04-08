@@ -20,10 +20,10 @@ heights_tab <- book_heights %>%
   # I edited these SVGs manually to set the colors, but the source is
   # https://openclipart.org/download/211627/book_lying_generic.svg
   mutate(image = case_when(
-    type == "Fiction" ~ "data/book_svgs/book_purple.svg",
-    type == "Nonfiction" ~ "data/book_svgs/book_orange.svg",
-    type == "Cookbook" ~ "data/book_svgs/book_green.svg",
-    type == "Other" ~ "data/book_svgs/book_pink.svg"
+    type == "Fiction" ~ "data/07-physical/book_purple.svg",
+    type == "Nonfiction" ~ "data/07-physical/book_orange.svg",
+    type == "Cookbook" ~ "data/07-physical/book_green.svg",
+    type == "Other" ~ "data/07-physical/book_pink.svg"
   ))
 
 cols <- c("Fiction" = "#7570b3",
