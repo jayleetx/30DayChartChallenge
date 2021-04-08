@@ -38,3 +38,6 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# data files not pushed to GH
+data/08-animals/*
