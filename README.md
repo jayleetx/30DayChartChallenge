@@ -8,6 +8,10 @@ Code for my charts in the April 2021 [30 Day Chart Challenge](https://github.com
 
 ### distributions
 
+Day 9 - statistics
+
+![Distribution of integers from OEIS core sequences](img/09-statistics.svg)
+
 Day 8 - animals
 
 ![Map of Greater Sage-Grouse subpopulations in western North America](img/08-animals.svg)
